@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Adopt_pet" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/GRAY_BAR</item> <!-- Thay đổi màu ở đây -->
+        <item name="colorPrimaryDark">@color/GRAY_BAR</item> <!-- Màu tối -->
+    </style>
+
+    <style name="Theme.Adopt_pet" parent="Base.Theme.Adopt_pet" />
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/BACKGROUND"
+    tools:context=".view.GetStartActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/picturestart"
+        android:layout_gravity="top" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:text="Chào mừng bạn tới với ứng dụng" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@color/GRAY"
+        android:text="Hãy chia sẽ, yêu thương và chăm sóc những vật nuôi đáng yêu" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnGetStart"
+        android:layout_marginHorizontal="20dp"
+         android:layout_marginTop="180dp"
+        android:padding="15dp"
+        android:background="@drawable/button_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:text="@string/get_started" />
+</LinearLayout>
