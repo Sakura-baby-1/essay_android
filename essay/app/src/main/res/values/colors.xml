@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#0c0d0c</color>
+    <color name="white">#FFEDECE9</color>
+    <color name="GRAY">#4E5D6C</color>
+    <color name="GRAY_BAR">#FFB2B1B1</color>
+    <color name="SECONDARY">#fcc7ac</color>  // Màu cam sáng, năng động và nổi bật
+    <color name="LIGHT_PRIMARY">#C9E4CA</color>// Màu xanh lá cây đậm, mạnh mẽ và tươi mới
+    <color name="BACKGROUND">#FDF6E3</color>
+</resources>
