@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/BACKGROUND"
+    android:padding="8dp">
+
+    <!-- Hiển thị ngày -->
+    <TextView
+        android:id="@+id/messageDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oct 11, 2024"
+        android:textSize="12sp"
+        android:textColor="@color/gray"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/BACKGROUND"
+        android:padding="4dp" />
+
+    <!-- Tin nhắn của người thứ nhất -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/BACKGROUND"
+        android:layout_marginVertical="4dp"
+        android:layout_gravity="start">
+
+        <ImageView
+            android:id="@+id/avatarImageView1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_avatar_placeholder_1"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circle_background" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/messageTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_message_bubble"
+                android:padding="12dp"
+                android:text="Chào bạn! Bạn khỏe không?"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/messageTimeTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7:29 PM"
+                android:textSize="12sp"
+                android:textColor="@color/gray"
+                android:layout_marginTop="2dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Tin nhắn của người thứ hai -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/BACKGROUND"
+        android:layout_marginVertical="4dp"
+        android:layout_gravity="end">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/messageTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_message_bubble"
+                android:padding="12dp"
+                android:text="Mình vẫn khỏe, cảm ơn bạn! Còn bạn thì sao?"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/messageTimeTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7:30 PM"
+                android:textSize="12sp"
+                android:textColor="@color/gray"
+                android:layout_marginTop="2dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/avatarImageView2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/ic_avatar_placeholder_2"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circle_background" />
+    </LinearLayout>
+</LinearLayout>
